@@ -17,7 +17,9 @@ export default function save( props ) {
 	} );
 	return (
 		<div {...blockProps}>
-			<img src={imageUrl} alt={imageAlt} className={'owl-link__image wp-image-' + imageId}/>
+			{ imageUrl && 
+				<img src={imageUrl} alt={imageAlt} className={'owl-link__image wp-image-' + imageId}/>
+			}
 			<div className="owl-link__content">
 				<p><RichText.Content value={content}/></p>
 				<p className="owl-link__link">

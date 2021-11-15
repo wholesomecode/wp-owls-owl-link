@@ -5,14 +5,8 @@ import { __ } from '@wordpress/i18n';
 
 import './editor.scss';
 
-export default function Edit( props ) {
+export default function Edit( { attributes, isSelected, setAttributes } ) {
 	const [ showURLPopover, setPopover ] = useState( false );
-
-	const {
-		attributes,
-		isSelected,
-		setAttributes,
-	} = props;
 
 	const {
 		content,
