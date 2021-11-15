@@ -1,0 +1,36 @@
+/*!****************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./src/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************/
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.owl-link .block-editor-media-placeholder {
+  border-radius: 20px;
+  max-width: 25%;
+}
+.owl-link .block-editor-media-placeholder .dashicon {
+  margin-right: 6px;
+}
+.owl-link .owl-link__image {
+  overflow: hidden;
+  position: relative;
+}
+.owl-link .owl-link__image img {
+  border-radius: 20px;
+}
+.owl-link .owl-link__image .owl-link__image-remove {
+  background-color: #ffffff;
+  border-top-left-radius: 20px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+}
+.owl-link .owl-link__link-button {
+  bottom: 20px;
+  position: absolute;
+  right: 20px;
+}
+
+/*# sourceMappingURL=index.css.map*/

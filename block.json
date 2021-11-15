@@ -1,0 +1,49 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "wp-owls/owl-link",
+	"version": "0.1.0",
+	"title": "Owl Link",
+	"category": "text",
+	"icon": "smiley",
+	"description": "Lorem ipsum dolor sit amet id elementum gravida hendrerit fringilla proin dapibus tempus ultricies phasellus.",
+	"supports": {
+		"html": false
+	},
+	"attributes": {
+		"content": {
+			"type": "string"
+		},
+		"imageAlt": {
+			"type": "number"
+		},
+		"imageId": {
+			"type": "number"
+		},
+		"imageUrl": {
+			"type": "string"
+		},
+		"linkText": {
+			"type": "string"
+		},
+		"linkUrl": {
+			"type": "string"
+		}
+	},
+	"styles": [
+		{
+			"name": "owl-link__border",
+			"label": "Border",
+			"isDefault": "true"
+		},
+		{
+			"name": "owl-link__no-border",
+			"label": "No Border"
+			
+		}
+	],
+	"textdomain": "owl-link",
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}

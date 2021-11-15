@@ -1,0 +1,40 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.owl-link {
+
+	.block-editor-media-placeholder {
+		border-radius: 20px;
+		max-width: 25%;
+		
+		.dashicon {
+			margin-right: 6px;
+		}
+	}
+
+	.owl-link__image {
+		overflow: hidden;
+		position: relative;
+
+		img {
+			border-radius: 20px;
+		}
+
+		.owl-link__image-remove {
+			background-color: #ffffff;
+			border-top-left-radius: 20px;
+			left: 0px;
+			position: absolute;
+			top: 0px;
+		}
+	}
+
+	.owl-link__link-button {
+		bottom: 20px;
+		position: absolute;
+		right: 20px;
+	}
+}

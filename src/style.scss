@@ -1,0 +1,45 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.owl-link {
+	display: flex;
+	gap: 20px;
+
+	.owl-link__image {
+		border-radius: 20px;
+		height: auto;
+		max-width: 25%;
+	}
+
+	.owl-link__content {
+		border: 1px solid #333;
+		border-radius: 20px;
+		padding: 20px;
+		margin: 0px;
+		width: 100%;
+
+		p:first-of-type {
+			margin-bottom: 20px;
+			margin-top: 0px;
+		}
+
+		p:last-of-type {
+			margin-bottom: 0px;
+		}
+	}
+
+	&.is-style-owl-link__no-border {
+		.owl-link__content {
+			border: none;
+			padding: 0px;
+		}
+	}
+
+	.owl-link__link {
+		text-transform: uppercase;
+	}
+}
