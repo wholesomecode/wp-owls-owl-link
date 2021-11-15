@@ -111,7 +111,6 @@ export default function Edit( { attributes, isSelected, setAttributes } ) {
 							) }
 						</IconButton>
 					)}
-			
 			</div>
 		</div>
 	);

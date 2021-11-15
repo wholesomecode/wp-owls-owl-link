@@ -1,20 +1,20 @@
 import { RichText, useBlockProps } from '@wordpress/block-editor';
 import { __ } from '@wordpress/i18n';
 
-export default function save( props ) {
+export default function save( { attributes } ) {
 	const {
-		attributes: {
-			content,
-			imageAlt,
-			imageId,
-			imageUrl,
-			linkText,
-			linkUrl,
-		},
-	} = props;
+		content,
+		imageAlt,
+		imageId,
+		imageUrl,
+		linkText,
+		linkUrl,
+	} = attributes;
+
 	const blockProps = useBlockProps.save( {
 		className: 'owl-link',
 	} );
+	
 	return (
 		<div {...blockProps}>
 			{ imageUrl && 
